@@ -1,4 +1,4 @@
-O Problema 💡
+O Problema 💡?
 Com tantas opções de alimentos disponíveis e a crescente preocupação com a saúde, muitas pessoas não sabem por onde começar a controlar sua alimentação de forma eficaz. 😕🍔
 
 Além disso, as informações sobre calorias e tipos de alimentos podem ser difíceis de encontrar, espalhadas em vários sites e aplicativos, causando confusão e desorganização. 😩🔍
