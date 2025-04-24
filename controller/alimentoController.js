@@ -10,6 +10,14 @@ export function buscar(req, res) {
   const alimento = Alimento.getById(id);
   alimento ? res.json(alimento) : res.status(404).json({ erro: "Alimento não encontrado" });
 }
+export function buscarPorCategoria(req, res) {
+  const categoria = req.params.categoria.toLowerCase();
+  const resultados = Alimento.getByCategoria(categoria);
+  resultados.length
+    ? res.json(resultados)
+    : res.status(404).json({ erro: "Categoria não encontrada" });
+}
+
 
 export function criar(req, res) {
   const criado = Alimento.create(req.body);

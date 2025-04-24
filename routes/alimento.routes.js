@@ -1,10 +1,10 @@
 // routes/alimento.routes.js
-import { Router } from "express";
-import { listar, buscar, criar, atualizar, deletar } from "../controller/alimentoController.js";
+import { listar, buscar, criar, atualizar, deletar, buscarPorCategoria } from "../controller/alimentoController.js";
 
 const router = Router();
 
 router.get("/", listar);
+router.get("/categoria/:categoria", buscarPorCategoria);
 router.get("/:id", buscar);
 router.post("/", criar);
 router.put("/:id", atualizar);

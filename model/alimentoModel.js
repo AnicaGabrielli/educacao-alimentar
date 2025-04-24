@@ -9,6 +9,10 @@ export function getById(id) {
   return alimentos.find(a => a.id === id);
 }
 
+export function getByCategoria(categoria) {
+  return alimentos.filter(a => a.categoria.toLowerCase() === categoria);
+}
+
 export function create(dado) {
   const novo = { id: gerarId(), ...dado };
   alimentos.push(novo);
